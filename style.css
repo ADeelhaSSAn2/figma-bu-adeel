@@ -1,0 +1,1001 @@
+.navbar{
+    background-color: #ececec;
+}
+.frame2{
+    height:5.5vh;
+    width:80%;
+    margin-right: 0.3rem;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+.home {
+    color: #007E85;
+    text-decoration-line:underline;
+}
+.signUp{
+    color: #007E85;
+}
+.navCentreMenu a{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-left: 2em;
+    color: black;
+}
+.navRightMenu button{
+    color: #fff;
+    background-color: #036891;
+    padding: 0.25em 2em;
+    margin-right: 2em;
+    font-size: 1.2em;
+}
+.firstPart{
+    height: auto;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.FirstLeftSec{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    margin-left: 0.5em;
+    margin-top: 8em;
+}
+.firstHeading{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2.3em;
+    color: #333333;
+}
+.firstPara{
+    text-transform: capitalize;
+    color:rgba(0, 0, 0, 0.699);
+    line-height: 1.2em;
+    font-size: 1em;
+}
+.firstLeftButtons{
+    display: flex;
+    margin-top: 3em;
+    gap: 2em;
+}
+.appointmentButton{
+    color:#fff;
+    background: #007E85;
+    font-size: 1.2em;
+    padding:0.4em 1.5em;
+    border: none;
+    border-radius: 0.9em;
+}
+.WatchVideoIcon{
+    display: flex;
+    gap:1em;
+}
+.WatchVideoIcon p{
+    margin-top: 0.7em;
+    color:rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+}
+.WatchVideoIcon i{
+    color: #007E85;
+    font-size: 3em;
+    cursor: pointer;
+}
+.firstRightSec{
+    margin-top: 4em;
+    width: 50%;
+    position: relative;
+}
+.firstRightSec img{
+    width: 65%;
+    position: absolute;
+    right: 5em;
+    top: 1.5em;
+}
+.doctorImage img{
+    position: absolute;
+    right: 3.3em;
+}
+.twentySevenService{
+    width:18%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.5em;
+    position: absolute;
+    right: 5em;
+    top:5em;
+    z-index: 1;
+}
+.twentySevenService p{
+    font-size: 1.3;
+    margin: 0px auto;
+    padding: 0.3em 0em;
+    font-weight: bold;
+    color:#007e85;
+}
+.twentySevenService span{
+    font-size: 0.75em;
+    color: black;
+    font-weight: bold;
+}
+.ourProfession img{
+    width:22%;
+    height: 7vh;
+    position: absolute;
+    left: 8em;
+    top: 23em;
+}
+.findADoc{
+    margin-top: 6em;
+}
+.findADoc h1{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 2.2em;
+    margin-left: 1em;
+    color: #000;
+}
+
+.secondPart{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vh;
+    margin-top: 3em;
+    background: #FAFAFA;
+    border-radius: 0.8em;
+}
+.secLeftPart input{
+    margin-top: 3em;
+    border: 2px solid #007E85;
+    padding: 0.8em 1em;
+    margin-left: 1em;
+}
+.secLeftPart input:hover{
+    background-color: rgb(197, 245, 201);
+}
+.secRightPart{
+    margin-top: 3em;
+    display: flex;
+}
+.secRightPart img{
+    
+    width: 3em;
+    margin-left: 1.5em;
+}
+.secRightPart p{
+    margin-top: 1em;
+    margin-right: 4em;
+}
+.secRightPart button{
+    background-color: #007e85;
+    color: #fff;
+    height: 7vh;
+    padding: 0em 2.5em;
+    border: none;
+    border-radius: 0.9em;
+    margin-top: 0.3em;
+    margin-left: 2em;
+}
+.ourResult{
+    margin-top: 3em;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.ourResult p{
+    color: #007E85;
+    font-size: 1.5em;
+    text-align: center;
+}
+.thirdPart{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    justify-content: space-between;
+}
+.thirdPartInner h1{
+    font-weight: 600;
+    font-size: 2.2em;
+    color: #06b7fd;
+    text-align: center;
+    cursor: pointer;
+}
+.thirdPartInner h1:hover{
+    color: #6eab36;
+}
+.thirdPartInner span{
+    color: rgba(73, 230, 238, 0.979);
+}
+.thirdPartInner span:hover{
+    color: #fcad63;
+}
+.thirdPartInner p{
+    font-weight: 500;
+}
+.fourthPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6em;
+}
+.fourthLeftSide{
+    margin-top: 3em;
+}
+.fourthLeftSide h1{
+    font-weight: 600;
+    font-size: 2.2em;
+    color: #007e85;
+    margin-left: 0.4em;
+}
+.fourthLeftSide p{
+    color:#555555;
+}
+.fourthLeftSideButtons{
+    margin-left: 0.6em;
+    margin-top: 3em;
+}
+.fourthSideBtnOne{
+    background-color: #007e85;
+    color: #fff;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 1em;
+}
+.fourthSideBtnOne:hover{
+    color: rgb(0, 8, 0);
+    background-color: rgba(250, 193, 167, 0.719);
+}
+.fourthSideBtnTwo{
+    background-color: #FAFAFA;
+    color: #007e85;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 5px solid #fff;
+    margin-left: 1em;
+    border-radius: 5em;
+}
+.fourthSideBtnTwo:hover{
+    color: rgb(1, 26, 1);
+    background-color:#5e9c24;
+}
+.fourthRightSide img{
+    width:75%;
+    margin-left: 4em;
+    border-radius: 7rem;
+}
+.fifthPart{
+    margin-top: 8em;
+}
+.fifthPart h1{
+    font-weight: 600;
+    font-size: 2.2em;
+    text-align: center;
+    color: #007e85;
+}
+.fifthPart p{
+    color: #555555;
+    font-size: 1em;
+    text-align: center;
+}
+.fifthPartSecOne{
+    margin-top: 3em;
+}
+.fifthPartSecTwo{
+    margin-top: 3em;
+}
+.secFiveImages{
+    width: 18rem;
+}
+.secFiveImages img{
+    width:16rem;
+    margin: 0px auto;
+    margin-top: 2em;
+    background-color: 10rem;
+}
+.crdTitle{
+    color: #007e85;
+}
+.crdText{
+    font-size: 0.8em;
+    color: #555555;
+    padding-top: 0.5em;
+}
+.cardlearnMore{
+    text-decoration: none;
+    color: #008500;
+    background-color: rgba(240, 206, 206, 0.801);
+    cursor: pointer;
+    font-weight: 500;
+}
+.SixPartSec{
+    margin-top: 2rem;
+}
+.SixhPart{
+    margin-top: 8em;
+}
+.SixPart h1{
+    font-weight: 500;
+    font-size: 2.2em;
+    text-align: center;
+    color: #007e85;
+}
+.SixPart p{
+    color: #555555;
+    font-size: 1em;
+    text-align: center;
+}
+.secsixImages{
+    width: 18rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+.secsixImages img{
+    width:5rem;
+    margin: 0px auto;
+    margin-top: 2em;
+    background-color: 5rem;
+    border-radius: 10rem;
+    display: flex;
+}
+.crdheadtitle {
+    color: #007e85;
+    text-align: center;
+}
+.crdsmalltitle{
+    text-align: center;
+}
+.crdbottomText{
+    text-align: center;
+    font-size: 0.8em;
+    color: #555555;
+    padding-top: 0.5em;
+}
+.cardicon{
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    margin-left:3.5rem ;
+    cursor: pointer;
+    font-weight: 500;
+}
+.SevenPart{
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.SevenPart h3{
+    text-align: center;
+}
+.SevenPart h3:hover{
+    color: #007E85;
+}
+.inputButtonSeven{
+    margin-top: 0.5em;
+}
+.inputButtonSeven input{
+    width:22em;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    color: #555555;
+}
+.inputButtonSeven button{
+    background-color: #007e85;
+    color: #fff;
+    margin-left: 1em;
+    width:8em;
+    padding: 1em;
+    border: none;
+    border-radius: 10em;
+}
+.inputButtonSeven button:hover{
+    background-color: #6eab36;
+}
+.footerSection{
+    width:100%;
+    background-color: #007E85;
+    height:auto;
+}
+.footer{
+    background-color: #007E85;
+    margin-top: 2em;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 4em 1em;
+}
+.footerFirstOne{
+    color:#fff;
+}
+.footerFirstOne img{
+    width:3.5em
+}
+.footerFirstOne p{
+    margin-top: 1em;
+}
+.footerFirstOne span{
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.footerSecondOne li{
+    list-style: none;
+    color: #fff;
+    line-height: 2em;
+    font-weight: 300;
+}
+ul>.footerSecOneHeading{
+    margin-bottom: 1em;
+    font-weight:500;
+    font-size: 1em;
+}
+li img{
+    width:1.5em;
+    cursor: pointer;
+}
+.Twitter-icon img{
+    width: 2em;
+    margin-top: 0.1em;
+}
+.bigpic img{
+    height: 48rem;
+    width: 98rem;
+}
+.sixthPart{
+    margin-top: 5em;
+}
+.sixthPart h1{
+    font-weight: 600;
+    font-size: 2.2em;
+    text-align: center;
+    color: #007e85;
+}
+.sixthPart p{
+    color: rgba(85, 85, 85, 1);
+    font-size: 1em;
+    line-height: 1em;
+    text-align: center;
+}
+.sixthPartMidSec{
+    display: flex;
+    justify-content: center;
+}
+.secSixCard{
+    width: 17rem;
+    margin-top: 3em;
+    padding: 1em;
+    text-align: left;
+}
+.crdSixText{
+    padding-top: 0.5em;
+}
+.saventhonePart h1{
+    margin-top: 2em;
+    font-weight: bold;
+    font-size: 2.2em;
+    text-align: center;
+    color: #000;
+}
+.saventhonePart p{
+    color: rgba(85, 85, 85, 1);
+    font-size: 1em;
+    line-height: 1em;
+    text-align: center;
+}
+.saventhonePartMidSec{
+    display: flex;
+    justify-content: center;
+}
+.saventhonePartGap{
+    margin-top: -1.3em;
+}
+.secSavenoneCard{
+    width: 18rem;
+    margin-top: 3em;
+    padding: 0.5em 1em;
+    text-align: left;
+}
+.crdSavenoneText{
+    display: flex;
+    gap: 1.2em;
+}
+.crdSavenpneText i{
+    color: #007e85;
+}
+.crdSavenpneText p{
+    font-weight: 500;
+}
+.crdSavenoneText span{
+    font-weight: 400;
+    color: #555555;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+    .frame2{
+        height:5vh;
+        margin-left: 0em;
+    }
+    .navCentreMenu a{
+        text-align: center;
+    }
+    .navRightMenu button{
+        display:block;
+        margin: 0px auto;
+        width:50%;
+    }
+    .firstHeading{
+        font-size: 2em;
+    }
+
+    .firstLeftButtons{
+        margin-top: 1em;
+    }
+    .appointmentButton{
+        font-size: 1em;
+        padding:0.1em 1em;
+    }
+    .firstRightSec{
+        margin-top: 4em;
+        width:50%;
+        position: relative;
+    }
+    .firstRightSec img{
+        width:80%;
+        right: 1em;
+        top:3em;
+    }
+    .doctorImage img{
+        position: absolute;
+        right: 0.5em;
+    }
+    .twentySevenService{
+        right: 3em;
+        top:5em;
+        z-index: 1;
+    }
+    .twentySevenService p{
+        font-size: 0.6;
+        padding: 0.2em 1em;
+    }
+    .twentySevenService span{
+        display: none;
+    }
+    .ourProfession img{
+        width:20%;
+        height: auto;
+        position: absolute;
+        left: 1.5em;
+        top: 15em;
+    }
+    .secLeftPart input{
+        padding: 0.6em 0.5em;
+        width:7em;
+    }
+    .secRightPart p{
+        margin-top: 0.8em;
+    }
+    .secRightPart button{
+        padding: 0.1em 2em;
+        margin-right: 1em;
+    }
+    .fourthRightSide img{
+        width:100%;
+    }
+    .fourthLeftSide h1{
+        font-size: 2.1em;
+    }
+    .fourthLeftSide p{
+     font-size: 0.8em;
+    }
+    .secFiveImages{
+        width:14rem;
+    }
+    .secFiveImages img{
+        width: 12rem;
+    }
+    
+    .footerSecondOne li{
+        line-height: 2em;
+        font-weight: 300;
+        font-size: 0.9em;
+    }
+    .footerFirstOne p{
+        font-size: 1em;
+    }
+    ul>.footerSecOneHeading{
+        font-weight:500;
+        font-size: 1em;
+    }
+    li img{
+        width:1.5em;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .firstPart{
+        width:100%;
+        display: flex;
+    }
+    .firstHeading{
+        font-size: 1.9em;
+    }
+    .firstPara{
+        font-size: 0.9em;
+    }
+    .firstLeftButtons{
+        margin-top: 0em;
+    }   
+    .appointmentButton{
+        font-size: 0.9em;
+        padding: 0em 0.7em;
+        height: 6vh;
+    }
+    .WatchVideoIcon p{
+        font-size: 0.9em;
+        margin-top: 0.4em;
+    }
+    .firstRightSec{
+        margin-top: 6em;
+        width:50%;
+        position: relative;
+    }
+    .firstRightSec img{
+        width:95%;
+        right: 0em;
+        top:3em;
+    }
+    .doctorImage img{
+        position: absolute;
+        right: 0em;
+    }
+    .twentySevenService{
+        right: 1.4em;
+        width: auto;
+        top:5em;
+        z-index: 1;
+    }
+    .twentySevenService p{
+        font-size: 0.6;
+        padding: 0.2em 1em;
+    }
+    .twentySevenService span{
+        display: none;
+    }
+    .ourProfession img{
+        width:25%;
+        height: auto;
+        position: absolute;
+        left: 0em;
+        top: 15em;
+    }
+    .secondPart{
+        padding:2em;
+        justify-content: center;
+        flex-direction: column;
+        gap:4em;
+        width: 100%;
+        height:auto;
+    }
+    .secLeftPart input{
+        padding: 0.5em;
+        width:11em;
+    }
+    .secRightPart button{
+        padding: 0.5em;
+        width:7em;
+        height:6vh;
+    }
+    .fourthPart{
+        gap: 1em;
+        margin-top: 2em;
+    }
+    .fourthLeftSide{
+        margin-top: 3em;
+    }
+    .fourthLeftSideButtons{
+        margin-left: 0.6em;
+        margin-top: 2em;
+    }
+    .fourthSideBtnOne{
+        padding: 0.8em;
+        width:8em;
+        height: 5vh;
+        border-radius: 10em;
+        font-size: 0.8em;
+    }
+    .fourthSideBtnTwo{
+        padding: 0.8em;
+        width:8em;
+        height: 5vh;
+        border-radius: 10em;
+        font-size: 0.8em;
+    }
+    .fourthRightSide img{
+        width:100%;
+    }
+    .fourthLeftSide h1{
+        font-size: 1.5em;
+    }
+    .fourthLeftSide p{
+        font-size: 0.73em;
+    }
+    .secFiveImages{
+        width:22rem;
+        display: block;
+        margin: 0px auto;
+        margin-top: 1em;
+    }
+    .secFiveImages img{
+        width: 20rem;
+    }
+    .fifthPartSecTwo{
+        margin-top: 0.2em;
+    }
+    .footerSecondOne li{
+        line-height: 2em;
+        font-weight: 320;
+        font-size: 0.53em;
+    }
+    .footerFirstOne p{
+        font-size: 0.8em;
+    }
+    ul>.footerSecOneHeading{
+        font-weight:500;
+        font-size: 0.7em;
+    }
+    li img{
+        width:1.5em;
+    }
+}
+@media only screen and (max-width:576px){
+    .frame2{
+        width:60%;
+        height:5vh;
+    }
+    .firstPart{
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column; 
+    }
+    .firstHeading{
+        font-size: 1.7em;
+        font-weight: 500;
+        text-align: center;
+    }
+    .firstPara{
+        font-size: 1em;
+        text-align: center;
+    }
+    .firstLeftSec{
+        margin-top: 2em;
+    }
+    .firstLeftButtons{
+        margin-top: 0.8em;
+    }   
+    .appointmentButton{
+        font-size: 1em;
+        padding: 0em 1em;
+        height: 6vh;
+    }
+    .WatchVideoIcon p{
+        font-size: 0.7em;
+        font-weight:500;
+        margin-top: 0.4em;
+    }
+    .firstRightSec{
+        margin-top: 1em;
+        width:50%;
+        position: relative;
+    }
+    .firstRightSec img{
+        width:100%;
+    }
+    .twentySevenService{
+        right: 1em;
+        width: auto;
+        top:5em;
+        z-index: 1;
+    }
+    .twentySevenService p{
+        font-size: 0.6;
+        padding: 0.2em 1em;
+    }
+    .ourProfession img{
+        width:30%;
+        left: -2.4em;
+        top: 12em;
+    }
+    .findADoc{
+        margin-top: 23em;
+    }
+    .findADoc h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .secLeftPart input{
+        padding: 0.5em;
+        width:9em;
+    }
+    .secRightPart p{
+        margin-top: 0.5em;
+        margin-right: 0em;
+    }
+    .secRightPart button{
+        width:6em;
+        height:6vh;
+        margin-left: 3em;
+    }
+    .fourthPart{
+        flex-direction: column-reverse;
+        margin-top: 3em;
+    }
+    .fourthLeftSide{
+        margin-top: 2em;
+    }
+    .fourthLeftSide h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .fourthLeftSide p{
+        font-size: 1em;
+        text-align: center;
+        line-height: 1em;
+    }
+    .fourthLeftSideButtons{
+        display: flex;
+        justify-content: center;
+    }
+    .fourthSideBtnOne{
+        color: #fff;
+        padding: 0.8em 2em;
+        border-radius: 2em;
+        width:auto;
+        height:auto;
+    }
+    .fourthSideBtnTwo{
+        padding: 0.8em 2em;
+        border-radius: 2em;
+        width:auto;
+        height:auto;
+    }
+    .fourthRightSide img{
+        width:100%;
+    }
+    .fifthPart{
+        margin-top: 5em;
+    }
+    .fifthPartSecOne{
+        margin-top: 1em;
+    }
+    
+    .sixthPartMidSec{
+        margin-top: 2em;
+    }
+    .secSixCard{
+        display: block;
+        margin: 0px auto;
+        margin-top: 1em;
+        width: 18em;
+    }
+    .secSevenoneCard{
+        display: block;
+        margin: 0px auto;
+        margin-top: 1em;
+        width: 18em;
+    }
+    .seventhonePartGap{
+        margin-top: 0em;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 2em 0em;
+    }
+    .footerSecondOne li{
+        line-height: 2em;
+        font-weight: 400;
+        font-size: 1em;
+    }
+    .footerFirstOne p{
+        font-size: 1.1em;
+    }
+    ul>.footerSecOneHeading{
+        font-weight:600;
+        font-size: 1.2em;
+    }
+    li img{
+        width:1.5em;
+    }
+}
+@media only screen and (max-width:473px){
+    .firstPart{
+        width:100%;
+    }
+    .firstHeading{
+        font-size: 1.3em;
+    }
+    .firstPara{
+        font-size: 1em;
+    }
+    .firstLeftButtons{
+        margin-top: 0.6em;
+        gap: 0.8em;
+    }   
+    .appointmentButton{
+        font-size: 0.8em;
+        padding: 0em 1em;
+        height: 6vh;
+    }
+    .WatchVideoIcon p{
+        font-size: 0.7em;
+        font-weight:600;
+    }
+    .firstRightSec{
+        margin-top: 0.6em;
+        width:50%;;
+    }
+    .firstRightSec img{
+        width:100%;
+    }
+    .twentySevenService{
+        right: 0em;
+    }
+    .ourProfession img{
+        width:30%;
+        left: -2.1em;
+        top: 11em;
+    }
+}
+@media only screen and (max-width:433px){
+    .secLeftPart input{
+        padding: 0.5em;
+        width:6.5em;
+        margin-right: 0.3em;
+    }
+    .secRightPart p{
+        font-size: 0.8em;
+        margin-left: em;
+    }
+    .secRightPart img{
+        margin-left: 0.5em;
+    }
+    .secRightPart button{
+        width:5em;
+        height:5vh;
+    }
+    .fifthPart{
+        margin-top: 4em;
+    }
+    .secFiveImages{
+        width:18rem;
+    }
+    .secFiveImages img{
+        width: 16rem;
+    }
+}
+@media only screen and (max-width:360px){
+    .navRightMenu button{
+        width:100%;
+    }
+    .secLeftPart input{
+        width:6em;
+    }
+    .bigpic img{
+    width: 2rem;
+    }
+}
+
